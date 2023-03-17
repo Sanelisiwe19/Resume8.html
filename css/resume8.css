@@ -1,0 +1,145 @@
+.hero {
+    height: 50vh; /* Make the div take up full height of the viewport */
+    background: url(hero-image.jpg) center center no-repeat;
+    background-size: cover; /* Make the background image cover the div */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black ;
+    text-align: center;
+  }
+  
+  .hero img {
+    width: 150px; /* Set the size of the profile picture */
+    border-radius: 50%; /* Add a circular border to the profile picture */
+    margin-bottom: 20px; /* Add some space between the profile picture and the text */
+  }
+  
+  .hero h1 {
+    font-size: 3em; /* Set the size of the name */
+    margin-bottom: 10px; /* Add some space between the name and the tagline */
+  }
+  
+  .hero p {
+    font-size: 1.5em; /* Set the size of the tagline */
+    margin: 0; /* Remove any default margin */
+  }
+
+  .details {
+    color: rgb(165, 16, 16);
+  }
+
+  .name{
+    cursor: pointer;
+  }
+
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+  }
+  
+  #details {
+    width: 400px;
+  }
+  
+  input {
+    padding: 3px;
+    box-shadow: 3px 3px 5px grey;
+    font-size: 14px;
+    font-weight: 600;
+    width: 300px;
+    background-color: aliceblue;
+  }
+
+  /* Default styles */
+    .resume {
+        width: 80%;
+        margin: auto;
+    }
+  
+    .hero {
+    text-align: center;
+    }
+  
+  .main {
+    margin-top: 50px;
+  }
+  
+  .main label {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .main label {
+    margin-bottom: 20px;
+  }
+  
+  .main label{
+    margin-bottom: 5px;
+  }
+  
+  /* Media queries for different device sizes */
+  
+  /* For devices with a maximum width of 768px */
+  @media screen and (max-width: 768px) {
+    .resume {
+      width: 90%;
+    }
+    
+    .main {
+      margin-top: 30px;
+      font-size: large;
+    }
+    
+
+  }
+  
+  /* For devices with a maximum width of 480px */
+  @media screen and (max-width: 480px) {
+    .resume {
+      width: 100%;
+    }
+    
+
+    .hero {
+      font-size: 18px;
+    }
+    
+    .main {
+      font-size: 20px;
+    }
+    
+    .main {
+      font-size: 14px;
+    }
+  }
+
+  /*code for mobile devices smaller than 600px*/
+body { background-color: blue; }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   body { background-color: red; }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   body { background-color: green; }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   body { background-color: yellow; }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   body { background-color: rgb(5, 4, 4); 
+ 
+}
+}
+  
+
+  
